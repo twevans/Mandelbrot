@@ -16,6 +16,7 @@ def is_stable(c, num_iterations):
         z = z**3 + c
     return abs(z) <= 2
 
+# comment
 
 def get_members(c, num_iterations):
     mask = is_stable(c, num_iterations)
